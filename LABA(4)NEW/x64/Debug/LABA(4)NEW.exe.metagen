@@ -1,0 +1,54 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly LABA(4)NEW, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class LABA4NEW.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Laba34.OrdersForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(TransportCompany): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RefreshOrdersTable(): PrivateScope, Public, HideBySig
+Struct CargoType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CargoType General = 0 : Public, Static, Literal, HasDefault
+    CargoType Fragile = 1 : Public, Static, Literal, HasDefault
+    CargoType Hazardous = 2 : Public, Static, Literal, HasDefault
+    CargoType Refrigerated = 3 : Public, Static, Literal, HasDefault
+Class Laba34.EditForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String mode : Public
+  Properties:
+    Double TariffPrice 'get set' : 
+    System.String TariffTypeString 'get set' : 
+    System.String ClientPhone 'get set' : 
+    System.String ClientName 'get set' : 
+  Methods:
+    SetMode(String): PrivateScope, Public, HideBySig
+    get_ClientName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ClientName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientPhone(): PrivateScope, Public, HideBySig, SpecialName
+    set_ClientPhone(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TariffTypeString(): PrivateScope, Public, HideBySig, SpecialName
+    set_TariffTypeString(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TariffPrice(): PrivateScope, Public, HideBySig, SpecialName
+    set_TariffPrice(Double): PrivateScope, Public, HideBySig, SpecialName
+Class Laba34.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(TransportCompany): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
